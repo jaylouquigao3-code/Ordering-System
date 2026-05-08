@@ -55,10 +55,10 @@
             gradientPanel2.Controls.Add(txtPassword);
             gradientPanel2.Controls.Add(txtAddress);
             gradientPanel2.Controls.Add(txtEmail);
-            gradientPanel2.Location = new Point(197, 23);
-            gradientPanel2.Margin = new Padding(2, 2, 2, 2);
+            gradientPanel2.Location = new Point(197, 11);
+            gradientPanel2.Margin = new Padding(2);
             gradientPanel2.Name = "gradientPanel2";
-            gradientPanel2.Size = new Size(312, 285);
+            gradientPanel2.Size = new Size(312, 304);
             gradientPanel2.TabIndex = 10;
             gradientPanel2.TopColor = Color.MediumTurquoise;
             // 
@@ -67,7 +67,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label3.Location = new Point(48, 173);
+            label3.Location = new Point(48, 190);
             label3.Name = "label3";
             label3.Size = new Size(73, 15);
             label3.TabIndex = 15;
@@ -78,7 +78,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label1.Location = new Point(48, 6);
+            label1.Location = new Point(48, 28);
             label1.Name = "label1";
             label1.Size = new Size(71, 15);
             label1.TabIndex = 13;
@@ -86,7 +86,7 @@
             // 
             // txtfullname
             // 
-            txtfullname.Location = new Point(48, 23);
+            txtfullname.Location = new Point(48, 45);
             txtfullname.Margin = new Padding(3, 2, 3, 2);
             txtfullname.Name = "txtfullname";
             txtfullname.Size = new Size(221, 23);
@@ -97,7 +97,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label2.Location = new Point(48, 65);
+            label2.Location = new Point(48, 81);
             label2.Name = "label2";
             label2.Size = new Size(61, 15);
             label2.TabIndex = 14;
@@ -107,7 +107,7 @@
             // 
             btnCreate.BackColor = Color.DeepSkyBlue;
             btnCreate.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCreate.Location = new Point(113, 227);
+            btnCreate.Location = new Point(112, 247);
             btnCreate.Margin = new Padding(3, 2, 3, 2);
             btnCreate.Name = "btnCreate";
             btnCreate.Size = new Size(94, 33);
@@ -121,7 +121,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label4.Location = new Point(48, 118);
+            label4.Location = new Point(48, 135);
             label4.Name = "label4";
             label4.Size = new Size(42, 15);
             label4.TabIndex = 16;
@@ -129,7 +129,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(48, 190);
+            txtPassword.Location = new Point(48, 207);
             txtPassword.Margin = new Padding(3, 2, 3, 2);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(221, 23);
@@ -137,7 +137,7 @@
             // 
             // txtAddress
             // 
-            txtAddress.Location = new Point(48, 82);
+            txtAddress.Location = new Point(48, 98);
             txtAddress.Margin = new Padding(3, 2, 3, 2);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(221, 23);
@@ -145,7 +145,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(48, 135);
+            txtEmail.Location = new Point(48, 152);
             txtEmail.Margin = new Padding(3, 2, 3, 2);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(221, 23);
@@ -157,7 +157,7 @@
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Image = Properties.Resources.wallpaper;
             pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(700, 337);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
