@@ -9,36 +9,35 @@ namespace Ordering_System
 {
     public partial class purchase : Form
     {
-        // =========================================
-        // API URL
-        // =========================================
+        //=========================================
+        //API URL
+        //=========================================
 
         string apiUrl =
         "http://localhost:3000/api/order/customer/";
 
-        // =========================================
-        // HTTP CLIENT
-        // =========================================
+        //=========================================
+        //HTTP CLIENT
+        //=========================================
 
         HttpClient client =
         new HttpClient();
+
 
         public purchase()
         {
             InitializeComponent();
         }
 
-        // =========================================
-        // FORM LOAD
-        // =========================================
+        //=========================================
+        //FORM LOAD
+        //=========================================
 
         private async void purchase_Load(
             object sender,
             EventArgs e)
         {
-            // =====================================
-            // CHECK SESSION
-            // =====================================
+         //   
 
             if (Session.customer_id <= 0)
             {
@@ -52,9 +51,9 @@ namespace Ordering_System
             await LoadOrders();
         }
 
-        // =========================================
-        // LOAD ORDERS
-        // =========================================
+        //
+        //LOAD ORDERS
+       //
 
         private async Task LoadOrders()
         {
@@ -82,21 +81,19 @@ namespace Ordering_System
                     return;
                 }
 
-                List<OrderModel> orders =
-                JsonConvert.DeserializeObject
-                <List<OrderModel>>(json);
+                List<OrderModel> orders = JsonConvert.DeserializeObject <List<OrderModel>>(json);
 
-                // =====================================
-                // DISPLAY TO DATAGRIDVIEW
-                // =====================================
+                //
+                //DISPLAY TO DATAGRIDVIEW
+               //
 
                 dgvList.DataSource = null;
 
                 dgvList.DataSource = orders;
 
-                // =====================================
-                // HEADERS
-                // =====================================
+                //=====================================
+                //HEADERS
+                //=====================================
 
                 dgvList.Columns["order_id"]
                 .HeaderText = "ID";
@@ -122,9 +119,9 @@ namespace Ordering_System
                 dgvList.Columns["order_date"]
                 .HeaderText = "Date";
 
-                // =====================================
-                // DESIGN
-                // =====================================
+                //=====================================
+                //DESIGN
+                //=====================================
 
                 dgvList.AutoSizeColumnsMode =
                 DataGridViewAutoSizeColumnsMode.Fill;
@@ -146,11 +143,11 @@ namespace Ordering_System
 
                 dgvList.ClearSelection();
 
-                // =====================================
-                // COLUMN WIDTHS
-                // =====================================
+                //=====================================
+                //COLUMN WIDTHS
+                //=====================================
 
-                // SMALL
+                //SMALL
 
                 dgvList.Columns["order_id"]
                 .Width = 50;
@@ -158,7 +155,7 @@ namespace Ordering_System
                 dgvList.Columns["quantity"]
                 .Width = 70;
 
-                // MEDIUM
+                //MEDIUM
 
                 dgvList.Columns["payment_status"]
                 .Width = 90;
@@ -166,7 +163,7 @@ namespace Ordering_System
                 dgvList.Columns["total_amount"]
                 .Width = 100;
 
-                // LARGE
+                //LARGE
 
                 dgvList.Columns["fullname"]
                 .Width = 170;
@@ -177,22 +174,22 @@ namespace Ordering_System
                 dgvList.Columns["category"]
                 .Width = 120;
 
-                // DATE
+                //DATE
 
                 dgvList.Columns["order_date"]
                 .Width = 150;
 
-                // =====================================
-                // DATE FORMAT
-                // =====================================
+                //=====================================
+                //DATE FORMAT
+                //=====================================
 
                 dgvList.Columns["order_date"]
                 .DefaultCellStyle.Format =
                 "MMM dd, yyyy";
 
-                // =====================================
-                // TOTAL FORMAT
-                // =====================================
+                //=====================================
+                //TOTAL FORMAT
+                //=====================================
 
                 dgvList.Columns["total_amount"]
                 .DefaultCellStyle.Format =
@@ -206,9 +203,7 @@ namespace Ordering_System
             }
         }
 
-        // =========================================
-        // ORDER BUTTON
-        // =========================================
+        
 
         private void btnOrder_Click(
             object sender,
@@ -222,9 +217,9 @@ namespace Ordering_System
             this.Hide();
         }
 
-        // =========================================
-        // ORDER LIST BUTTON
-        // =========================================
+        //=========================================
+        //ORDER LIST BUTTON
+        //=========================================
 
         private void btnOrderList_Click(
             object sender,
@@ -238,9 +233,9 @@ namespace Ordering_System
             this.Hide();
         }
 
-        // =========================================
-        // LOGOUT BUTTON
-        // =========================================
+        //=========================================
+        //LOGOUT BUTTON
+        //=========================================
 
         private void btnLogout_Click(
             object sender,
@@ -255,9 +250,9 @@ namespace Ordering_System
         }
     }
 
-    // =========================================
-    // MODEL
-    // =========================================
+    //=========================================
+    //MODEL
+    //=========================================
 
     public class OrderModel
     {
