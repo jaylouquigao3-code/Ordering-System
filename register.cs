@@ -15,6 +15,7 @@ namespace Ordering_System
             InitializeComponent();
         }
 
+
         private async void btnCreate_Click_1(object sender, EventArgs e)
         {
             if (txtfullname.Text == "" ||
@@ -28,10 +29,10 @@ namespace Ordering_System
 
             try
             {
-                // CORRECT API URL
+                //CORRECT API URL
                 string apiUrl = "http://localhost:3000/api/customer/register";
 
-                // DATA
+                //DATA
                 var data = new
                 {
                     fullname = txtfullname.Text,
@@ -40,7 +41,7 @@ namespace Ordering_System
                     password = txtPassword.Text
                 };
 
-                // JSON
+                //JSON
                 string json = JsonConvert.SerializeObject(data);
 
                 var content = new StringContent(json, Encoding.UTF8,
