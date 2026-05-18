@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{906B09E5-06F5-44BD-B869-6A4D2A56321A}|Ordering System.csproj|c:\\xampp\\htdocs\\sporthub_project\\ordering-system-main\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\Session.cs",
+              "RelativeDocumentMoniker": "Session.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\Session.cs",
+              "RelativeToolTip": "Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T16:48:30.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "register.cs [Design]",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\register.cs",
               "RelativeDocumentMoniker": "register.cs",
@@ -87,33 +104,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "register.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\register.cs",
               "RelativeDocumentMoniker": "register.cs",
               "ToolTip": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\register.cs",
               "RelativeToolTip": "register.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T07:39:21.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "purchase.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\purchase.cs",
               "RelativeDocumentMoniker": "purchase.cs",
               "ToolTip": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\purchase.cs",
               "RelativeToolTip": "purchase.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAACcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T07:39:21.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "purchase.cs [Design]",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\purchase.cs",
               "RelativeDocumentMoniker": "purchase.cs",
@@ -125,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "items.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\items.cs",
               "RelativeDocumentMoniker": "items.cs",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "items.cs [Design]",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SPORTHUB_PROJECT\\Ordering-System-main\\items.cs",
               "RelativeDocumentMoniker": "items.cs",
